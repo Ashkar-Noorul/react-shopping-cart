@@ -14,6 +14,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Shop />}></Route>
             <Route path='/cart' element={<Cart />}></Route>
+            <Route path='*' element={<Cart />}></Route>
           </Routes>
         </Router>
       </ShopContextProvider>
